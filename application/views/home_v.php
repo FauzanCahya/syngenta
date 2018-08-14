@@ -192,7 +192,6 @@ License: You must have a valid license purchased only from themeforest(the above
 						<span style="text-align: center;">SAMPLE
 						</span>
 						</a>
-						
 					</li>
 					
 					<!-- END INBOX DROPDOWN -->
@@ -216,7 +215,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</li>
 
 					<li class="dropdown dropdown-extended dropdown-notification dropdown-dark" id="header_notification_bar">
-						<a style="text-align: center;" href="javascript:;" >
+						<a style="text-align: center;" href="<?=base_url();?>testing" >
 						<img src="<?php echo base_url(); ?>assets/admin/layout4/img/testing.png" style="width: 37px; height: 37px;">
 						<br>
 						<span style="text-align: center;">TESTING

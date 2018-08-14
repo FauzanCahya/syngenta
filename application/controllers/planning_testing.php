@@ -16,13 +16,14 @@ class Planning_testing extends CI_Controller {
 	public function index()
 	{
 		$data = array(
-				'title'    	=> 'Master Data',
-				'sub_menu' 	=> 'master_data',
-				'sub_menu1'	=> 'master_data',
-				'page' 	   	=> 'planning_testing_v',
-				'menu' 	   	=> 'dashboard_menu',
-				'menu2'		=> '',
-			);
+			'title'    	=> 'Master Data',
+			'sub_menu' 	=> 'master_data',
+			'sub_menu1'	=> 'master_data',
+			'page' 	   	=> 'planning_testing_v',
+			'page2' 	=> 'mc_test_quick_v',
+			'menu' 	   	=> 'mc_test',
+			'menu2'		=> '',
+		);
 
 		$this->load->view('home_v',$data);
 	}
