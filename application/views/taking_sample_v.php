@@ -1336,7 +1336,7 @@
 	</div>
 </div>
 
-<script type="text/javascript">
+<script type="text/javascript"> 
 function tambah_data(){
 	$('#sekalian_tambah').show(500);
 }

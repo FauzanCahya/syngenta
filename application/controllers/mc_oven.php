@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Taking_sample_c extends CI_Controller {
+class Mc_oven extends CI_Controller {
 
 	public function __construct()
 	{
@@ -11,18 +11,19 @@ class Taking_sample_c extends CI_Controller {
         // if($nama == "" || $nama == null){
         // 	redirect('login_c','refresh');
         // }
-	} 
+	}
 
 	public function index()
 	{
 		$data = array(
-				'title'    	=> 'Master Data',
-				'sub_menu' 	=> 'master_data',
-				'sub_menu1'	=> 'master_data',
-				'page' 	   	=> 'taking_sample_v',
-				'menu' 	   	=> 'dashboard_menu',
-				'menu2'		=> '',
-			);
+			'title'    	=> 'Master Data',
+			'sub_menu' 	=> 'master_data',
+			'sub_menu1'	=> 'master_data',
+			'page' 	   	=> 'planning_testing_v',
+			'page2' 	=> 'mc_oven_v',
+			'menu' 	   	=> 'mc_oven',
+			'menu2'		=> '',
+		);
 
 		$this->load->view('home_v',$data);
 	}
